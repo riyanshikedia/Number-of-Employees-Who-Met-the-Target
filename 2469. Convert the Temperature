@@ -1,0 +1,11 @@
+class Solution(object):
+    def convertTemperature(self, celsius):
+        """
+        :type celsius: float
+        :rtype: List[float]
+        """
+        c=celsius + 273.15
+        sol=[c]
+        a=(celsius*1.80)+32.00
+        sol.append(a)
+        return sol
